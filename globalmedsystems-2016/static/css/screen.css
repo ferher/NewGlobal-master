@@ -367,8 +367,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?1479057954);
-  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?&1479057954#iefix) format("embedded-opentype"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff2?1479057954) format("woff2"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff?1479057954) format("woff"), url(/fonts/bootstrap/glyphicons-halflings-regular.ttf?1479057954) format("truetype"), url(/fonts/bootstrap/glyphicons-halflings-regular.svg?1479057954#glyphicons_halflingsregular) format("svg");
+  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?1480819220);
+  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?&1480819220#iefix) format("embedded-opentype"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff2?1480819220) format("woff2"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff?1480819220) format("woff"), url(/fonts/bootstrap/glyphicons-halflings-regular.ttf?1480819220) format("truetype"), url(/fonts/bootstrap/glyphicons-halflings-regular.svg?1480819220#glyphicons_halflingsregular) format("svg");
 }
 /* line 24, ../../../../../../../usr/local/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -8939,3 +8939,39 @@ code {
 
 /* Custom Fotter 
 -------------------------------------------------- */
+/* line 1, ../sass/components/global/_elements.scss */
+.custom-title {
+  font-family: 'RawengulkUltralight';
+  font-size: 1.75em;
+  margin: 0 auto;
+  color: #6D7073;
+  text-align: center;
+}
+
+/* line 9, ../sass/components/global/_elements.scss */
+.custom-content {
+  margin-top: 15px;
+  font-family: 'RawengulkUltralight';
+}
+
+/* line 14, ../sass/components/global/_elements.scss */
+.custom-logo {
+  float: left;
+  width: 200px;
+  height: 85px;
+  margin: 10px 0 0 30px;
+}
+
+/* line 20, ../sass/components/global/_elements.scss */
+.custom-banner-img {
+  margin-top: 46px;
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+@font-face {
+  font-family: 'RawengulkUltralight';
+  src: url("static/fonts/Rawengulk_Ultralight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
