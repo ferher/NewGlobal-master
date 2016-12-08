@@ -8952,9 +8952,10 @@ code {
   margin-top: 15px;
   color: #6D7073;
   line-height: 1.5em;
+  font-family: CaviarDreamsitalicwebfont;
 }
 
-/* line 14, ../sass/components/global/_elements.scss */
+/* line 15, ../sass/components/global/_elements.scss */
 .custom-logo {
   float: left;
   width: 200px;
@@ -8962,7 +8963,7 @@ code {
   margin: 10px 0 0 30px;
 }
 
-/* line 20, ../sass/components/global/_elements.scss */
+/* line 21, ../sass/components/global/_elements.scss */
 .custom-banner-img {
   margin-top: 46px;
   border-style: solid;
@@ -8977,9 +8978,9 @@ code {
   font-style: normal;
 }
 @font-face {
-  font-family: 'Existence-StencilLight';
-  src: url("static/fonts/existence-light/Existence-StencilLight-webfont.eot");
-  src: url("static/fonts/existence-light/Existence-StencilLight-webfont.eot") format("embedded-opentype"), url("static/fonts/existence-light/Existence-StencilLight-webfont.woff") format("woff"), url("static/fonts/existence-light/Existence-StencilLight-webfont.ttf") format("truetype"), url("static/fonts/existence-light/Existence-StencilLight-webfont.svg") format("svg");
+  font-family: 'CaviarDreamsitalicwebfont';
+  src: url("/static/fonts/caviar-dreams/CaviarDreams_Italic-webfont.eot");
+  src: url("/static/fonts/caviar-dreams/CaviarDreams_Italic-webfont.eot") format("embedded-opentype"), url("/static/fonts/caviar-dreams/CaviarDreams_Italic-webfont.woff") format("woff"), url("/static/fonts/caviar-dreams/CaviarDreams_Italic-webfont.ttf") format("truetype"), url("/static/fonts/caviar-dreams/CaviarDreams_Italic-webfont.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
