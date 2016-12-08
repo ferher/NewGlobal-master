@@ -8941,17 +8941,17 @@ code {
 -------------------------------------------------- */
 /* line 1, ../sass/components/global/_elements.scss */
 .custom-title {
-  font-family: 'RawengulkUltralight';
   font-size: 1.75em;
   margin: 0 auto;
   color: #6D7073;
   text-align: center;
 }
 
-/* line 9, ../sass/components/global/_elements.scss */
+/* line 8, ../sass/components/global/_elements.scss */
 .custom-content {
   margin-top: 15px;
-  font-family: 'RawengulkUltralight';
+  color: #6D7073;
+  line-height: 1.5em;
 }
 
 /* line 14, ../sass/components/global/_elements.scss */
@@ -8970,8 +8970,16 @@ code {
 }
 
 @font-face {
-  font-family: 'RawengulkUltralight';
-  src: url("static/fonts/Rawengulk_Ultralight.ttf") format("truetype");
+  font-family: 'novecentowide';
+  src: url("static/fonts/Novecentowide-Medium-webfont.eot");
+  src: url("static/fonts/Novecentowide-Medium-webfont.eot") format("embedded-opentype"), url("static/fonts/Novecentowide-Medium-webfont.woff") format("woff"), url("static/fonts/Novecentowide-Medium-webfont.ttf") format("truetype"), url("static/fonts/Novecentowide-Medium-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Existence-StencilLight';
+  src: url("static/fonts/existence-light/Existence-StencilLight-webfont.eot");
+  src: url("static/fonts/existence-light/Existence-StencilLight-webfont.eot") format("embedded-opentype"), url("static/fonts/existence-light/Existence-StencilLight-webfont.woff") format("woff"), url("static/fonts/existence-light/Existence-StencilLight-webfont.ttf") format("truetype"), url("static/fonts/existence-light/Existence-StencilLight-webfont.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
