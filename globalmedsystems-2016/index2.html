@@ -7,6 +7,74 @@
 		<link rel="stylesheet" href="static/css/screen.css">
 	</head>
 
+<style>
+
+.dropdown-menu {
+		min-width: 200px;
+		border-style: solid!important;
+    	border-width: 0.5px!important;
+    	border-color: #939393!important;
+		background-color:rgba(194, 202, 186,0.89)!important;
+	}
+	.dropdown-menu.columns-2 {
+		min-width: 400px;
+	}
+	.dropdown-menu.columns-3 {
+		min-width: 500px;
+	}
+	.dropdown-menu li a {
+		padding: 10px 18px;
+		font-weight: 200;
+	}
+	.multi-column-dropdown {
+		list-style: none;
+	}
+	.multi-column-dropdown li a {
+		display: block;
+		clear: both;
+		line-height: 1.228571429;
+		color: #C62323;
+		white-space: normal;
+	}
+	.multi-column-dropdown li a:hover {
+		text-decoration: none;
+		color: #262626;
+		background-color: rgba(147,147,139,0.2);
+	}
+	
+	@media (max-width: 767px) {
+		.dropdown-menu.multi-column {
+			min-width: 240px !important;
+			overflow-x: hidden;
+		}
+	}
+	
+	@media (max-width: 480px) {
+		.content {
+			width: 90%;
+			margin: 50px auto;
+			padding: 10px;
+		}
+	}
+
+	@media screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+		display: block;
+	}
+	.dropdown-menu{
+		margin-top: 0;
+	}
+	.dropdown-toggle{
+		margin-bottom: 2px;
+	}
+	.navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+		margin-bottom: 0;
+	}
+}
+</style>
+
+
+
 	<body>
 		<!-- Fixed navbar -->
 	   <!-- <nav class="navbar navbar-default navbar-fixed-top">
@@ -56,7 +124,7 @@
 	       <!--</div>-->
 	     <!--</nav>-->
 	    
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	    <div class="navbar-header">
 	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 		        <span class="sr-only">Toggle navigation</span>
@@ -64,97 +132,76 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 	        </button>
-	        <a class="navbar-brand" href="#">Beach Backpacks</a>
+	        <img class="custom-logo"src="static/images/LogoGMS.png"/>
 	    </div>
 	    <!--/.navbar-header-->
 	
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	        <ul class="nav navbar-nav">
-		        <li class="dropdown">
-		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">One Column <b class="caret"></b></a>
-		            <ul class="dropdown-menu">
-			            <li><a href="#">Action</a></li>
-			            <li><a href="#">Another action</a></li>
-			            <li><a href="#">Something else here</a></li>
-			            <li class="divider"></li>
-			            <li><a href="#">Separated link</a></li>
-			            <li class="divider"></li>
-			            <li><a href="#">One more separated link</a></li>
-		            </ul>
+		        <li>
+		            <a href="#">INICIO</a>
 		        </li>
 		        <li class="dropdown">
-		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Two Column <b class="caret"></b></a>
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">CATALOGO<b class="caret"></b></a>
 		            <ul class="dropdown-menu multi-column columns-2">
-			            <div class="row">
+			            <div class="row dropdown-menu-custom">
 				            <div class="col-sm-6">
 					            <ul class="multi-column-dropdown">
-						            <li><a href="#">Action</a></li>
-						            <li><a href="#">Another action</a></li>
-						            <li><a href="#">Something else here that's extra long so we can see how it looks</a></li>
-						            <li class="divider"></li>
-						            <li><a href="#">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="#">One more separated link</a></li>
+						            <li><a href="#">Brazos C Portátiles</a></li>
+						            <li><a href="#">Hemodinamia</a></li>
+						            <li><a href="#">Resonancias Magnéticas</a></li>
+						            <li><a href="#">Ultrasonidos</a></li>
+						            <li><a href="#">Rayos X Fluoroscopia</a></li>
+						            <li><a href="#">Mastografias</a></li>
+						            <li><a href="#">CR</a></li>
 					            </ul>
 				            </div>
 				            <div class="col-sm-6">
 					            <ul class="multi-column-dropdown">
-						            <li><a href="#">Action</a></li>
-						            <li><a href="#">Another action</a></li>
-						            <li><a href="#">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="#">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="#">One more separated link</a></li>
+						            <li><a href="#">Densitometros</a></li>
+						            <li><a href="#">Rayos X</a></li>
+						            <li><a href="#">Tomografos</a></li>
+						            <li><a href="#">Transductores</a></li>
+						            <li><a href="#">Rayos X Portatiles</a></li>
+						            <li><a href="#">Reveladoras</a></li>
+						            <li><a href="#">Impresoras</a></li>
 					            </ul>
 				            </div>
 			            </div>
 		            </ul>
 		        </li>
+
+		        <li><a href="#">PREGUNTAS FRECUENTES</a></li>
+
 		        <li class="dropdown">
-		        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Three Column <b class="caret"></b></a>
-		            <ul class="dropdown-menu multi-column columns-3">
-			            <div class="row">
-				            <div class="col-sm-4">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVICIOS<b class="caret"></b></a>
+		            <ul class="dropdown-menu multi-column columns-2">
+			            <div class="row dropdown-menu-custom">
+				            <div class="col-sm-6">
 					            <ul class="multi-column-dropdown">
-						            <li><a href="#">Action</a></li>
-						            <li><a href="#">Another action</a></li>
-						            <li><a href="#">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="#">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="#">One more separated link</a></li>
+						            <li><a href="#">Mantenimiento</a></li>
+						            <li><a href="#">Vendemos su Equipo</a></li>
 					            </ul>
 				            </div>
-				            <div class="col-sm-4">
+				            <div class="col-sm-6">
 					            <ul class="multi-column-dropdown">
-						            <li><a href="#">Action</a></li>
-						            <li><a href="#">Another action</a></li>
-						            <li><a href="#">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="#">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="#">One more separated link</a></li>
-					            </ul>
-				            </div>
-				            <div class="col-sm-4">
-					            <ul class="multi-column-dropdown">
-						            <li><a href="#">Action</a></li>
-						            <li><a href="#">Another action</a></li>
-						            <li><a href="#">Something else here</a></li>
-						            <li class="divider"></li>
-						            <li><a href="#">Separated link</a></li>
-						            <li class="divider"></li>
-						            <li><a href="#">One more separated link</a></li>
+						            <li><a href="#">Outsourcing</a></li>
 					            </ul>
 				            </div>
 			            </div>
 		            </ul>
 		        </li>
-		        <li><a href="#">Link</a></li>
+
+		        <li><a href="#">BOLSA DE TRABAJO</a></li>
+
+
+		        <li><a href="contact_us.html">CONTACTENOS</a></li>
+		        
 	        </ul>
 	    </div>
 	    <!--/.navbar-collapse-->
+
+
 	</nav>
 	<!--/.navbar-->
 
@@ -225,6 +272,7 @@
 				        			<li> Mastografos</li>
 				        			<li> Ultrasonidos</li>
 				        		</ul>
+
 				        	</p>
 				        	<a href="catalog.html">Ver Equipos</a>
 					    </div>
@@ -249,5 +297,16 @@
 	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+		$(".dropdown, .btn-group").hover(function(){
+		var dropdownMenu = $(this).children(".dropdown-menu");
+		if(dropdownMenu.is(":visible")){
+			dropdownMenu.parent().toggleClass("open");
+		}
+	});
+});		
+</script>
 	</body>
 </html>
