@@ -367,8 +367,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?1480819220);
-  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?&1480819220#iefix) format("embedded-opentype"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff2?1480819220) format("woff2"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff?1480819220) format("woff"), url(/fonts/bootstrap/glyphicons-halflings-regular.ttf?1480819220) format("truetype"), url(/fonts/bootstrap/glyphicons-halflings-regular.svg?1480819220#glyphicons_halflingsregular) format("svg");
+  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?1481951691);
+  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?&1481951691#iefix) format("embedded-opentype"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff2?1481951691) format("woff2"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff?1481951691) format("woff"), url(/fonts/bootstrap/glyphicons-halflings-regular.ttf?1481951691) format("truetype"), url(/fonts/bootstrap/glyphicons-halflings-regular.svg?1481951691#glyphicons_halflingsregular) format("svg");
 }
 /* line 24, ../../../../../../../usr/local/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -8789,156 +8789,11 @@ button.close {
   }
 }
 /* line 1, ../sass/components/global/_layout.scss */
-html, body {
-  height: 100%;
+.main-wrapper {
+  margin: 0 auto;
+  max-width: 1153px;
 }
 
-/* line 4, ../sass/components/global/_layout.scss */
-.row-flex {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex: 1 1 auto;
-}
-/* line 11, ../sass/components/global/_layout.scss */
-.row-flex > div[class*='col-'] {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex: 1 1 auto;
-}
-
-/* line 20, ../sass/components/global/_layout.scss */
-.row-flex-wrap {
-  -webkit-flex-flow: row wrap;
-  align-content: flex-start;
-  flex: 0;
-}
-
-/* line 25, ../sass/components/global/_layout.scss */
-.row-flex > div[class*='col-'] {
-  margin: -.2px;
-  /* hack adjust for wrapping */
-}
-
-/* line 29, ../sass/components/global/_layout.scss */
-.container-flex > div[class*='col-'] {
-  margin: -.2px;
-  /* hack adjust for wrapping */
-}
-/* line 32, ../sass/components/global/_layout.scss */
-.container-flex > div[class*='col-'] div {
-  width: 100%;
-}
-
-/* line 36, ../sass/components/global/_layout.scss */
-.row-flex > div[class*='col-'] div {
-  width: 100%;
-}
-
-/* line 39, ../sass/components/global/_layout.scss */
-.flex-col {
-  display: flex;
-  display: -webkit-flex;
-  flex: 1 100%;
-  flex-flow: column nowrap;
-}
-
-/* line 45, ../sass/components/global/_layout.scss */
-.flex-grow {
-  display: flex;
-  -webkit-flex: 2;
-  flex: 2;
-}
-
-/* Custom Columns 
--------------------------------------------------- */
-/* Sticky footer styles
--------------------------------------------------- */
-/* line 54, ../sass/components/global/_layout.scss */
-html {
-  position: absolute;
-  min-height: 100%;
-}
-
-/* line 58, ../sass/components/global/_layout.scss */
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-
-/* line 62, ../sass/components/global/_layout.scss */
-.footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
-}
-
-/* line 70, ../sass/components/global/_layout.scss */
-.container-custom {
-  width: 115%;
-}
-
-/*  Not required for template or sticky footer method. 
--------------------------------------------------- */
-/* line 75, ../sass/components/global/_layout.scss */
-body > .container {
-  padding: 60px 15px 0;
-}
-
-/* line 78, ../sass/components/global/_layout.scss */
-.container .text-muted {
-  margin: 20px 0;
-}
-
-/* line 81, ../sass/components/global/_layout.scss */
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-/* line 85, ../sass/components/global/_layout.scss */
-code {
-  font-size: 80%;
-}
-
-/* Custom Bottom Border
--------------------------------------------------- */
-/* line 90, ../sass/components/global/_layout.scss */
-.custom-border {
-  padding-bottom: 10px;
-  border-bottom: dotted;
-  border-width: 5px;
-  border-color: #D40F18;
-}
-
-/* Custom Bottom Border
--------------------------------------------------- */
-/* line 98, ../sass/components/global/_layout.scss */
-.custom-text {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 500;
-  margin-right: 5px;
-}
-
-/* Custom Columns 
--------------------------------------------------- */
-/* line 106, ../sass/components/global/_layout.scss */
-.custom-footer {
-  width: 100vw;
-  min-width: 100vw;
-}
-
-/* Custom Fotter 
--------------------------------------------------- */
 /* line 1, ../sass/components/global/_elements.scss */
 .custom-title {
   font-size: 1.75em;
@@ -8950,37 +8805,259 @@ code {
 /* line 8, ../sass/components/global/_elements.scss */
 .custom-content {
   margin-top: 15px;
-  color: #6D7073;
   line-height: 1.5em;
   font-family: CaviarDreamsitalicwebfont;
 }
 
-/* line 15, ../sass/components/global/_elements.scss */
+/* line 14, ../sass/components/global/_elements.scss */
 .custom-logo {
   float: left;
   width: 200px;
   height: 85px;
-  margin: 10px 0 0 30px;
+  margin: -30px 0 0 30px;
 }
 
-/* line 21, ../sass/components/global/_elements.scss */
+/* line 20, ../sass/components/global/_elements.scss */
 .custom-banner-img {
-  margin-top: 46px;
   border-style: solid;
   border-width: 0.5px;
+  margin: 0 auto;
 }
 
+/* line 1, ../sass/components/global/_footer.scss */
+.footer {
+  color: #6D7073;
+  font-size: 10px;
+  line-height: 2em;
+  background: url(../images/bottom.gif) repeat-x top;
+  margin-bottom: 20px;
+}
+/* line 11, ../sass/components/global/_footer.scss */
+.footer #footerNav ul {
+  padding: 20px;
+  width: 70%;
+  list-style: none;
+  margin: 0 auto 0 auto;
+}
+/* line 17, ../sass/components/global/_footer.scss */
+.footer #footerNav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+/* line 21, ../sass/components/global/_footer.scss */
+.footer #footerNav li ul {
+  display: none;
+}
+/* line 25, ../sass/components/global/_footer.scss */
+.footer #footerNav a {
+  color: #6D7073;
+  font-size: 10px;
+  text-decoration: none;
+  line-height: 13px;
+  font-family: Tahoma;
+  display: block;
+  padding: 0 10px 0 10px;
+  margin-right: 10px;
+  line-height: 25px;
+}
+/* line 35, ../sass/components/global/_footer.scss */
+.footer #footerNav a:hover {
+  text-decoration: underline;
+}
+/* line 38, ../sass/components/global/_footer.scss */
+.footer #footer-rights {
+  width: 33%;
+  margin: 0 auto;
+}
+
+/* ==BEGIN==  ~04d Component ( Footer Navigation ) ===================================================== 
+footer {
+ color: #6D7073;
+ font-size: 10px;
+ line-height: 2em;
+ width:100%;
+ background:url(../img/layout/bottom.gif) repeat-x top;
+ margin-bottom:20px;
+}
+
+#footerNav ul {
+ padding:20px;
+ width: 70%;
+ list-style:none;
+ margin: 0 auto 0 auto;
+}
+
+#footerNav ul li {
+ float:left;
+ margin:0;
+ padding:0;
+}
+
+#footerNav a {
+ color: #6D7073;
+ font-size: 10px;
+ text-decoration: none;
+ line-height: 13px;
+ font-family: Tahoma;
+ display:block;
+ padding: 0 10px 0 10px;
+ margin-right:10px;
+ line-height:25px;
+}
+
+#footerNav a:hover { text-decoration:underline; }
+
+#footer-rights {
+ width:33%;
+ margin: 0 auto 0 auto;
+}
+
+#footerNav li ul{
+ display:none;
+}
+#footerNav #myMenu1{
+ margin: 0 10% 1em;
+}*/
+/* ==END==  ~04d Component ( Footer Navigation ) ===================================================== */
+/* line 1, ../sass/components/global/_header.scss */
+.header {
+  /* Dropdown Menu
+-------------------------------------------------- */
+}
+/* line 4, ../sass/components/global/_header.scss */
+.header .custom-style {
+  background-color: white;
+  border-color: white;
+  padding-top: 30px;
+}
+/* line 9, ../sass/components/global/_header.scss */
+.header .dropdown-menu {
+  min-width: 200px;
+  background-color: rgba(194, 202, 186, 0.89);
+}
+/* line 12, ../sass/components/global/_header.scss */
+.header .dropdown-menu.columns-2 {
+  min-width: 400px;
+}
+/* line 15, ../sass/components/global/_header.scss */
+.header .dropdown-menu.columns-3 {
+  min-width: 500px;
+}
+/* line 18, ../sass/components/global/_header.scss */
+.header .dropdown-menu li a {
+  padding: 10px 18px;
+  font-weight: 200;
+}
+/* line 23, ../sass/components/global/_header.scss */
+.header .multi-column-dropdown {
+  list-style: none;
+}
+/* line 25, ../sass/components/global/_header.scss */
+.header .multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  line-height: 1.228571429;
+  color: #C62323;
+  white-space: normal;
+}
+/* line 32, ../sass/components/global/_header.scss */
+.header .multi-column-dropdown li a:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: rgba(147, 147, 139, 0.2);
+}
+/* line 38, ../sass/components/global/_header.scss */
+.header .navbar-default .navbar-nav > .open > a, .header .navbar-default .navbar-nav > .open > a:hover, .header .navbar-default .navbar-nav > .open > a:focus {
+  background-color: rgba(194, 202, 186, 0.89);
+  color: #d40f0f;
+}
+/* line 42, ../sass/components/global/_header.scss */
+.header .custom-top-header {
+  width: 80%;
+  margin: 5px 0 5px 35%;
+  width: 75%;
+  background: -webkit-linear-gradient(left, transparent 1%, rgba(0, 0, 0, 0.75) 39%, rgba(0, 0, 0, 0.75) 99%);
+  float: right;
+}
+/* line 49, ../sass/components/global/_header.scss */
+.header .custom-country {
+  float: right;
+  color: white;
+  padding: 2px 9px 3px 3px;
+}
+@media (max-width: 767px) {
+  /* line 55, ../sass/components/global/_header.scss */
+  .header .dropdown-menu.multi-column {
+    min-width: 240px;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 480px) {
+  /* line 61, ../sass/components/global/_header.scss */
+  .header .content {
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 68, ../sass/components/global/_header.scss */
+  .header .dropdown:hover .dropdown-menu, .header .btn-group:hover .dropdown-menu {
+    display: block;
+  }
+  /* line 71, ../sass/components/global/_header.scss */
+  .header .dropdown-menu {
+    margin-top: 0;
+  }
+  /* line 74, ../sass/components/global/_header.scss */
+  .header .dropdown-toggle {
+    margin-bottom: 2px;
+  }
+  /* line 77, ../sass/components/global/_header.scss */
+  .header .navbar .dropdown-toggle, .header .nav-tabs .dropdown-toggle {
+    margin-bottom: 0;
+  }
+}
+
+/* line 1, ../sass/components/global/_services.scss */
+.services {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  height: 500px;
+}
+
+/* line 13, ../sass/components/global/_services.scss */
+.custom-services {
+  border-bottom: dotted;
+  border-width: 5px;
+  border-color: #D40F18;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+  /* line 21, ../sass/components/global/_services.scss */
+  .services {
+    height: auto;
+  }
+}
 @font-face {
   font-family: 'novecentowide';
-  src: url("static/fonts/Novecentowide-Medium-webfont.eot");
-  src: url("static/fonts/Novecentowide-Medium-webfont.eot") format("embedded-opentype"), url("static/fonts/Novecentowide-Medium-webfont.woff") format("woff"), url("static/fonts/Novecentowide-Medium-webfont.ttf") format("truetype"), url("static/fonts/Novecentowide-Medium-webfont.svg") format("svg");
+  src: url("../fonts/Novecentowide-Medium-webfont.eot");
+  src: url("../fonts/Novecentowide-Medium-webfont.eot") format("embedded-opentype"), url("../fonts/Novecentowide-Medium-webfont.woff") format("woff"), url("../fonts/Novecentowide-Medium-webfont.ttf") format("truetype"), url("../fonts/Novecentowide-Medium-webfont.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'CaviarDreamsitalicwebfont';
-  src: url("/static/fonts/caviar-dreams/CaviarDreams_Italic-webfont.eot");
-  src: url("/static/fonts/caviar-dreams/CaviarDreams_Italic-webfont.eot") format("embedded-opentype"), url("/static/fonts/caviar-dreams/CaviarDreams_Italic-webfont.woff") format("woff"), url("/static/fonts/caviar-dreams/CaviarDreams_Italic-webfont.ttf") format("truetype"), url("/static/fonts/caviar-dreams/CaviarDreams_Italic-webfont.svg") format("svg");
+  src: url("../fonts/caviar-dreams/CaviarDreams_Italic-webfont.eot");
+  src: url("../fonts/caviar-dreams/CaviarDreams_Italic-webfont.eot") format("embedded-opentype"), url("../fonts/caviar-dreams/CaviarDreams_Italic-webfont.woff") format("woff"), url("../fonts/caviar-dreams/CaviarDreams_Italic-webfont.ttf") format("truetype"), url("../fonts/caviar-dreams/CaviarDreams_Italic-webfont.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
