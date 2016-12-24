@@ -9047,6 +9047,112 @@ footer {
     height: auto;
   }
 }
+/********************************************************/
+/*                   Responsive.                        */
+/********************************************************/
+@media (max-width: 767px) {
+  /* line 5, ../sass/components/content/_catalog.scss */
+  h1, h2, h3, h4 {
+    text-align: center;
+  }
+}
+@media (min-width: 482px) {
+  /* line 8, ../sass/components/content/_catalog.scss */
+  .header h1 {
+    font-size: 55px;
+  }
+
+  /* line 9, ../sass/components/content/_catalog.scss */
+  .header h2 {
+    font-size: 30px;
+  }
+
+  /* line 10, ../sass/components/content/_catalog.scss */
+  .header p {
+    font-size: 15px;
+  }
+
+  /* line 12, ../sass/components/content/_catalog.scss */
+  #illustration {
+    margin-bottom: -215px;
+  }
+
+  /* line 13, ../sass/components/content/_catalog.scss */
+  .expand img {
+    margin-bottom: 200px;
+    margin-top: -180px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 16, ../sass/components/content/_catalog.scss */
+  .header h1 {
+    font-size: 55px;
+  }
+
+  /* line 17, ../sass/components/content/_catalog.scss */
+  .header h2 {
+    font-size: 20px;
+  }
+
+  /* line 18, ../sass/components/content/_catalog.scss */
+  .header p {
+    font-size: 15px;
+  }
+
+  /* line 19, ../sass/components/content/_catalog.scss */
+  .header .lead {
+    font-size: 22px;
+  }
+
+  /* line 21, ../sass/components/content/_catalog.scss */
+  #illustration {
+    margin-bottom: -310px;
+  }
+
+  /* line 22, ../sass/components/content/_catalog.scss */
+  .expand img {
+    margin-bottom: 300px;
+    margin-top: -190px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 25, ../sass/components/content/_catalog.scss */
+  .header h1 {
+    font-size: 55px;
+    margin-top: 50px;
+  }
+
+  /* line 26, ../sass/components/content/_catalog.scss */
+  .header h2 {
+    margin-bottom: 40px;
+  }
+
+  /* line 27, ../sass/components/content/_catalog.scss */
+  .header p {
+    font-size: 15px;
+  }
+
+  /* line 28, ../sass/components/content/_catalog.scss */
+  #illustration {
+    margin-bottom: -380px;
+  }
+
+  /* line 29, ../sass/components/content/_catalog.scss */
+  .expand img {
+    margin-bottom: 370px;
+    margin-top: -260px;
+  }
+
+  /* line 30, ../sass/components/content/_catalog.scss */
+  .space-before {
+    padding-top: 40px;
+  }
+
+  /* line 31, ../sass/components/content/_catalog.scss */
+  .space-after {
+    padding-bottom: 40px;
+  }
+}
 @font-face {
   font-family: 'novecentowide';
   src: url("../fonts/Novecentowide-Medium-webfont.eot");
