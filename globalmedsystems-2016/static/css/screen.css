@@ -8788,7 +8788,7 @@ button.close {
     display: none !important;
   }
 }
-/* line 1, ../sass/components/global/_layout.scss */
+/* line 1, ../sass/components/global/_main-wrapper.scss */
 .main-wrapper {
   margin: 0 auto;
   max-width: 1153px;
@@ -8871,55 +8871,6 @@ button.close {
   margin: 0 auto;
 }
 
-/* ==BEGIN==  ~04d Component ( Footer Navigation ) ===================================================== 
-footer {
- color: #6D7073;
- font-size: 10px;
- line-height: 2em;
- width:100%;
- background:url(../img/layout/bottom.gif) repeat-x top;
- margin-bottom:20px;
-}
-
-#footerNav ul {
- padding:20px;
- width: 70%;
- list-style:none;
- margin: 0 auto 0 auto;
-}
-
-#footerNav ul li {
- float:left;
- margin:0;
- padding:0;
-}
-
-#footerNav a {
- color: #6D7073;
- font-size: 10px;
- text-decoration: none;
- line-height: 13px;
- font-family: Tahoma;
- display:block;
- padding: 0 10px 0 10px;
- margin-right:10px;
- line-height:25px;
-}
-
-#footerNav a:hover { text-decoration:underline; }
-
-#footer-rights {
- width:33%;
- margin: 0 auto 0 auto;
-}
-
-#footerNav li ul{
- display:none;
-}
-#footerNav #myMenu1{
- margin: 0 10% 1em;
-}*/
-/* ==END==  ~04d Component ( Footer Navigation ) ===================================================== */
 /* line 1, ../sass/components/global/_header.scss */
 .header {
   /* Dropdown Menu
@@ -8932,28 +8883,35 @@ footer {
   padding-top: 30px;
 }
 /* line 9, ../sass/components/global/_header.scss */
+.header .custom-logo {
+  float: left;
+  width: 200px;
+  height: 85px;
+  margin: -30px 0 0 30px;
+}
+/* line 15, ../sass/components/global/_header.scss */
 .header .dropdown-menu {
   min-width: 200px;
   background-color: rgba(194, 202, 186, 0.89);
 }
-/* line 12, ../sass/components/global/_header.scss */
+/* line 18, ../sass/components/global/_header.scss */
 .header .dropdown-menu.columns-2 {
   min-width: 400px;
 }
-/* line 15, ../sass/components/global/_header.scss */
+/* line 21, ../sass/components/global/_header.scss */
 .header .dropdown-menu.columns-3 {
   min-width: 500px;
 }
-/* line 18, ../sass/components/global/_header.scss */
+/* line 24, ../sass/components/global/_header.scss */
 .header .dropdown-menu li a {
   padding: 10px 18px;
   font-weight: 200;
 }
-/* line 23, ../sass/components/global/_header.scss */
+/* line 29, ../sass/components/global/_header.scss */
 .header .multi-column-dropdown {
   list-style: none;
 }
-/* line 25, ../sass/components/global/_header.scss */
+/* line 31, ../sass/components/global/_header.scss */
 .header .multi-column-dropdown li a {
   display: block;
   clear: both;
@@ -8961,18 +8919,18 @@ footer {
   color: #C62323;
   white-space: normal;
 }
-/* line 32, ../sass/components/global/_header.scss */
+/* line 38, ../sass/components/global/_header.scss */
 .header .multi-column-dropdown li a:hover {
   text-decoration: none;
   color: #262626;
   background-color: rgba(147, 147, 139, 0.2);
 }
-/* line 38, ../sass/components/global/_header.scss */
+/* line 44, ../sass/components/global/_header.scss */
 .header .navbar-default .navbar-nav > .open > a, .header .navbar-default .navbar-nav > .open > a:hover, .header .navbar-default .navbar-nav > .open > a:focus {
   background-color: rgba(194, 202, 186, 0.89);
   color: #d40f0f;
 }
-/* line 42, ../sass/components/global/_header.scss */
+/* line 48, ../sass/components/global/_header.scss */
 .header .custom-top-header {
   width: 80%;
   margin: 5px 0 5px 35%;
@@ -8980,21 +8938,21 @@ footer {
   background: -webkit-linear-gradient(left, transparent 1%, rgba(0, 0, 0, 0.75) 39%, rgba(0, 0, 0, 0.75) 99%);
   float: right;
 }
-/* line 49, ../sass/components/global/_header.scss */
+/* line 55, ../sass/components/global/_header.scss */
 .header .custom-country {
   float: right;
   color: white;
   padding: 2px 9px 3px 3px;
 }
 @media (max-width: 767px) {
-  /* line 55, ../sass/components/global/_header.scss */
+  /* line 61, ../sass/components/global/_header.scss */
   .header .dropdown-menu.multi-column {
     min-width: 240px;
     overflow-x: hidden;
   }
 }
 @media (max-width: 480px) {
-  /* line 61, ../sass/components/global/_header.scss */
+  /* line 67, ../sass/components/global/_header.scss */
   .header .content {
     width: 90%;
     margin: 50px auto;
@@ -9002,19 +8960,19 @@ footer {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 68, ../sass/components/global/_header.scss */
+  /* line 74, ../sass/components/global/_header.scss */
   .header .dropdown:hover .dropdown-menu, .header .btn-group:hover .dropdown-menu {
     display: block;
   }
-  /* line 71, ../sass/components/global/_header.scss */
+  /* line 77, ../sass/components/global/_header.scss */
   .header .dropdown-menu {
     margin-top: 0;
   }
-  /* line 74, ../sass/components/global/_header.scss */
+  /* line 80, ../sass/components/global/_header.scss */
   .header .dropdown-toggle {
     margin-bottom: 2px;
   }
-  /* line 77, ../sass/components/global/_header.scss */
+  /* line 83, ../sass/components/global/_header.scss */
   .header .navbar .dropdown-toggle, .header .nav-tabs .dropdown-toggle {
     margin-bottom: 0;
   }
@@ -9032,127 +8990,136 @@ footer {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   height: 500px;
 }
-
-/* line 13, ../sass/components/global/_services.scss */
-.custom-services {
+/* line 11, ../sass/components/global/_services.scss */
+.services .custom-title {
+  font-size: 1.75em;
+  margin: 0 auto;
+  color: #6D7073;
+  text-align: center;
+}
+/* line 17, ../sass/components/global/_services.scss */
+.services .custom-content {
+  margin-top: 15px;
+  line-height: 1.5em;
+  font-family: CaviarDreamsitalicwebfont;
+}
+/* line 22, ../sass/components/global/_services.scss */
+.services .custom-service {
   border-bottom: dotted;
   border-width: 5px;
   border-color: #D40F18;
   padding-bottom: 10px;
 }
-
 @media (max-width: 992px) {
-  /* line 21, ../sass/components/global/_services.scss */
-  .services {
+  /* line 29, ../sass/components/global/_services.scss */
+  .services .services {
     height: auto;
   }
 }
-/********************************************************/
-/*                   Responsive.                        */
-/********************************************************/
+
+/* line 1, ../sass/components/content/_categories.scss */
+.categories {
+  /********************************************************/
+  /*                   Responsive.                        */
+  /********************************************************/
+}
+/* line 2, ../sass/components/content/_categories.scss */
+.categories .custom-row {
+  margin: 0 0 20px 0;
+}
+/* line 5, ../sass/components/content/_categories.scss */
+.categories .custom-product-header {
+  text-align: center;
+}
 @media (max-width: 767px) {
-  /* line 5, ../sass/components/content/_catalog.scss */
-  h1, h2, h3, h4 {
+  /* line 13, ../sass/components/content/_categories.scss */
+  .categories h1, .categories h2, .categories h3, .categories h4 {
     text-align: center;
   }
 }
 @media (min-width: 482px) {
-  /* line 8, ../sass/components/content/_catalog.scss */
-  .header h1 {
+  /* line 16, ../sass/components/content/_categories.scss */
+  .categories .header h1 {
     font-size: 55px;
   }
-
-  /* line 9, ../sass/components/content/_catalog.scss */
-  .header h2 {
+  /* line 17, ../sass/components/content/_categories.scss */
+  .categories .header h2 {
     font-size: 30px;
   }
-
-  /* line 10, ../sass/components/content/_catalog.scss */
-  .header p {
+  /* line 18, ../sass/components/content/_categories.scss */
+  .categories .header p {
     font-size: 15px;
   }
-
-  /* line 12, ../sass/components/content/_catalog.scss */
-  #illustration {
+  /* line 19, ../sass/components/content/_categories.scss */
+  .categories #illustration {
     margin-bottom: -215px;
   }
-
-  /* line 13, ../sass/components/content/_catalog.scss */
-  .expand img {
+  /* line 20, ../sass/components/content/_categories.scss */
+  .categories .expand img {
     margin-bottom: 200px;
     margin-top: -180px;
   }
 }
 @media (min-width: 768px) {
-  /* line 16, ../sass/components/content/_catalog.scss */
-  .header h1 {
+  /* line 23, ../sass/components/content/_categories.scss */
+  .categories .header h1 {
     font-size: 55px;
   }
-
-  /* line 17, ../sass/components/content/_catalog.scss */
-  .header h2 {
+  /* line 24, ../sass/components/content/_categories.scss */
+  .categories .header h2 {
     font-size: 20px;
   }
-
-  /* line 18, ../sass/components/content/_catalog.scss */
-  .header p {
+  /* line 25, ../sass/components/content/_categories.scss */
+  .categories .header p {
     font-size: 15px;
   }
-
-  /* line 19, ../sass/components/content/_catalog.scss */
-  .header .lead {
+  /* line 26, ../sass/components/content/_categories.scss */
+  .categories .header .lead {
     font-size: 22px;
   }
-
-  /* line 21, ../sass/components/content/_catalog.scss */
-  #illustration {
+  /* line 27, ../sass/components/content/_categories.scss */
+  .categories #illustration {
     margin-bottom: -310px;
   }
-
-  /* line 22, ../sass/components/content/_catalog.scss */
-  .expand img {
+  /* line 28, ../sass/components/content/_categories.scss */
+  .categories .expand img {
     margin-bottom: 300px;
     margin-top: -190px;
   }
 }
 @media (min-width: 992px) {
-  /* line 25, ../sass/components/content/_catalog.scss */
-  .header h1 {
+  /* line 31, ../sass/components/content/_categories.scss */
+  .categories .header h1 {
     font-size: 55px;
     margin-top: 50px;
   }
-
-  /* line 26, ../sass/components/content/_catalog.scss */
-  .header h2 {
+  /* line 32, ../sass/components/content/_categories.scss */
+  .categories .header h2 {
     margin-bottom: 40px;
   }
-
-  /* line 27, ../sass/components/content/_catalog.scss */
-  .header p {
+  /* line 33, ../sass/components/content/_categories.scss */
+  .categories .header p {
     font-size: 15px;
   }
-
-  /* line 28, ../sass/components/content/_catalog.scss */
-  #illustration {
+  /* line 34, ../sass/components/content/_categories.scss */
+  .categories #illustration {
     margin-bottom: -380px;
   }
-
-  /* line 29, ../sass/components/content/_catalog.scss */
-  .expand img {
+  /* line 35, ../sass/components/content/_categories.scss */
+  .categories .expand img {
     margin-bottom: 370px;
     margin-top: -260px;
   }
-
-  /* line 30, ../sass/components/content/_catalog.scss */
-  .space-before {
+  /* line 36, ../sass/components/content/_categories.scss */
+  .categories .space-before {
     padding-top: 40px;
   }
-
-  /* line 31, ../sass/components/content/_catalog.scss */
-  .space-after {
+  /* line 37, ../sass/components/content/_categories.scss */
+  .categories .space-after {
     padding-bottom: 40px;
   }
 }
+
 @font-face {
   font-family: 'novecentowide';
   src: url("../fonts/Novecentowide-Medium-webfont.eot");
