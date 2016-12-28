@@ -8794,34 +8794,20 @@ button.close {
   max-width: 1153px;
 }
 
-/* line 1, ../sass/components/global/_elements.scss */
-.custom-title {
-  font-size: 1.75em;
-  margin: 0 auto;
-  color: #6D7073;
-  text-align: center;
-}
-
-/* line 8, ../sass/components/global/_elements.scss */
-.custom-content {
-  margin-top: 15px;
-  line-height: 1.5em;
-  font-family: CaviarDreamsitalicwebfont;
-}
-
-/* line 14, ../sass/components/global/_elements.scss */
-.custom-logo {
-  float: left;
-  width: 200px;
-  height: 85px;
-  margin: -30px 0 0 30px;
-}
-
-/* line 20, ../sass/components/global/_elements.scss */
+/* line 5, ../sass/components/global/_elements.scss */
 .custom-banner-img {
   border-style: solid;
   border-width: 0.5px;
   margin: 0 auto;
+}
+
+/* line 11, ../sass/components/global/_elements.scss */
+.contact-spotlight {
+  border: 1px solid #999999;
+  font-size: 0.9em;
+  line-height: 0.7em;
+  margin: 15px;
+  padding: 0 0 0 25px;
 }
 
 /* line 1, ../sass/components/global/_footer.scss */

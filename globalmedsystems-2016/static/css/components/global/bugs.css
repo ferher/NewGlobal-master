@@ -1,0 +1,401 @@
+/* line 2, ../../../sass/components/global/bugs.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 5, ../../../sass/components/global/bugs.scss */
+.row-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex: 1 1 auto;
+}
+/* line 12, ../../../sass/components/global/bugs.scss */
+.row-flex > div[class*='col-'] {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+/* line 21, ../../../sass/components/global/bugs.scss */
+.row-flex-wrap {
+  -webkit-flex-flow: row wrap;
+  align-content: flex-start;
+  flex: 0;
+}
+
+/* line 26, ../../../sass/components/global/bugs.scss */
+.row-flex > div[class*='col-'] {
+  margin: -.2px;
+  /* hack adjust for wrapping */
+}
+
+/* line 30, ../../../sass/components/global/bugs.scss */
+.container-flex > div[class*='col-'] {
+  margin: -.2px;
+  /* hack adjust for wrapping */
+}
+/* line 33, ../../../sass/components/global/bugs.scss */
+.container-flex > div[class*='col-'] div {
+  width: 100%;
+}
+
+/* line 37, ../../../sass/components/global/bugs.scss */
+.row-flex > div[class*='col-'] div {
+  width: 100%;
+}
+
+/* line 40, ../../../sass/components/global/bugs.scss */
+.flex-col {
+  display: flex;
+  display: -webkit-flex;
+  flex: 1 100%;
+  flex-flow: column nowrap;
+}
+
+/* line 46, ../../../sass/components/global/bugs.scss */
+.flex-grow {
+  display: flex;
+  -webkit-flex: 2;
+  flex: 2;
+}
+
+/* Custom Columns 
+-------------------------------------------------- */
+/* Sticky footer styles
+-------------------------------------------------- */
+/* line 55, ../../../sass/components/global/bugs.scss */
+html {
+  position: absolute;
+  min-height: 100%;
+}
+
+/* line 59, ../../../sass/components/global/bugs.scss */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+/* line 63, ../../../sass/components/global/bugs.scss */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/* line 71, ../../../sass/components/global/bugs.scss */
+.container-custom {
+  width: 115%;
+}
+
+/*  Not required for template or sticky footer method. 
+-------------------------------------------------- */
+/* line 76, ../../../sass/components/global/bugs.scss */
+body > .container {
+  padding: 60px 15px 0;
+}
+
+/* line 79, ../../../sass/components/global/bugs.scss */
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/* line 82, ../../../sass/components/global/bugs.scss */
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 86, ../../../sass/components/global/bugs.scss */
+code {
+  font-size: 80%;
+}
+
+/* Custom Bottom Border
+-------------------------------------------------- */
+/* line 91, ../../../sass/components/global/bugs.scss */
+.custom-border {
+  padding-bottom: 10px;
+  border-bottom: dotted;
+  border-width: 5px;
+  border-color: #D40F18;
+}
+
+/* Custom Bottom Border
+-------------------------------------------------- */
+/* line 99, ../../../sass/components/global/bugs.scss */
+.custom-text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+/* Custom Columns 
+-------------------------------------------------- */
+/* line 107, ../../../sass/components/global/bugs.scss */
+.custom-footer {
+  width: 100vw;
+  min-width: 100vw;
+}
+
+/* Custom Fotter 
+-------------------------------------------------- */
+/* Dropdown Menu
+-------------------------------------------------- */
+/* line 116, ../../../sass/components/global/bugs.scss */
+.dropdown-menu {
+  min-width: 200px;
+  border-style: solid !important;
+  border-width: 0.5px !important;
+  border-color: #939393 !important;
+  background-color: rgba(194, 202, 186, 0.89) !important;
+}
+
+/* line 123, ../../../sass/components/global/bugs.scss */
+.dropdown-menu.columns-2 {
+  min-width: 400px;
+}
+
+/* line 126, ../../../sass/components/global/bugs.scss */
+.dropdown-menu.columns-3 {
+  min-width: 500px;
+}
+
+/* line 129, ../../../sass/components/global/bugs.scss */
+.dropdown-menu li a {
+  padding: 10px 18px;
+  font-weight: 200;
+}
+
+/* line 133, ../../../sass/components/global/bugs.scss */
+.multi-column-dropdown {
+  list-style: none;
+}
+
+/* line 136, ../../../sass/components/global/bugs.scss */
+.multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  line-height: 1.228571429;
+  color: #C62323;
+  white-space: normal;
+}
+
+/* line 143, ../../../sass/components/global/bugs.scss */
+.multi-column-dropdown li a:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: rgba(147, 147, 139, 0.2);
+}
+
+@media (max-width: 767px) {
+  /* line 150, ../../../sass/components/global/bugs.scss */
+  .dropdown-menu.multi-column {
+    min-width: 240px !important;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 480px) {
+  /* line 157, ../../../sass/components/global/bugs.scss */
+  .content {
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 165, ../../../sass/components/global/bugs.scss */
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
+    display: block;
+  }
+
+  /* line 168, ../../../sass/components/global/bugs.scss */
+  .dropdown-menu {
+    margin-top: 0;
+  }
+
+  /* line 171, ../../../sass/components/global/bugs.scss */
+  .dropdown-toggle {
+    margin-bottom: 2px;
+  }
+
+  /* line 174, ../../../sass/components/global/bugs.scss */
+  .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle {
+    margin-bottom: 0;
+  }
+}
+/* Dropdown Menu
+-------------------------------------------------- */
+/* line 180, ../../../sass/components/global/bugs.scss */
+.dropdown-menu {
+  min-width: 200px;
+  border-style: solid !important;
+  border-width: 0.5px !important;
+  border-color: #939393 !important;
+  background-color: rgba(194, 202, 186, 0.89) !important;
+}
+
+/* line 187, ../../../sass/components/global/bugs.scss */
+.dropdown-menu.columns-2 {
+  min-width: 400px;
+}
+
+/* line 190, ../../../sass/components/global/bugs.scss */
+.dropdown-menu.columns-3 {
+  min-width: 500px;
+}
+
+/* line 193, ../../../sass/components/global/bugs.scss */
+.dropdown-menu li a {
+  padding: 10px 18px;
+  font-weight: 200;
+}
+
+/* line 197, ../../../sass/components/global/bugs.scss */
+.multi-column-dropdown {
+  list-style: none;
+}
+
+/* line 200, ../../../sass/components/global/bugs.scss */
+.multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  line-height: 1.228571429;
+  color: #C62323;
+  white-space: normal;
+}
+
+/* line 207, ../../../sass/components/global/bugs.scss */
+.multi-column-dropdown li a:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: rgba(147, 147, 139, 0.2);
+}
+
+@media (max-width: 767px) {
+  /* line 214, ../../../sass/components/global/bugs.scss */
+  .dropdown-menu.multi-column {
+    min-width: 240px !important;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 480px) {
+  /* line 221, ../../../sass/components/global/bugs.scss */
+  .content {
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 229, ../../../sass/components/global/bugs.scss */
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
+    display: block;
+  }
+
+  /* line 232, ../../../sass/components/global/bugs.scss */
+  .dropdown-menu {
+    margin-top: 0;
+  }
+
+  /* line 235, ../../../sass/components/global/bugs.scss */
+  .dropdown-toggle {
+    margin-bottom: 2px;
+  }
+
+  /* line 238, ../../../sass/components/global/bugs.scss */
+  .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle {
+    margin-bottom: 0;
+  }
+}
+/* line 243, ../../../sass/components/global/bugs.scss */
+.dropdown-menu {
+  min-width: 200px;
+  border-style: solid !important;
+  border-width: 0.5px !important;
+  border-color: #939393 !important;
+  background-color: rgba(194, 202, 186, 0.89) !important;
+}
+
+/* line 250, ../../../sass/components/global/bugs.scss */
+.dropdown-menu.columns-2 {
+  min-width: 400px;
+}
+
+/* line 253, ../../../sass/components/global/bugs.scss */
+.dropdown-menu.columns-3 {
+  min-width: 500px;
+}
+
+/* line 256, ../../../sass/components/global/bugs.scss */
+.dropdown-menu li a {
+  padding: 10px 18px;
+  font-weight: 200;
+}
+
+/* line 260, ../../../sass/components/global/bugs.scss */
+.multi-column-dropdown {
+  list-style: none;
+}
+
+/* line 263, ../../../sass/components/global/bugs.scss */
+.multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  line-height: 1.228571429;
+  color: #C62323;
+  white-space: normal;
+}
+
+/* line 270, ../../../sass/components/global/bugs.scss */
+.multi-column-dropdown li a:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: rgba(147, 147, 139, 0.2);
+}
+
+@media (max-width: 767px) {
+  /* line 277, ../../../sass/components/global/bugs.scss */
+  .dropdown-menu.multi-column {
+    min-width: 240px !important;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 480px) {
+  /* line 284, ../../../sass/components/global/bugs.scss */
+  .content {
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 292, ../../../sass/components/global/bugs.scss */
+  .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
+    display: block;
+  }
+
+  /* line 295, ../../../sass/components/global/bugs.scss */
+  .dropdown-menu {
+    margin-top: 0;
+  }
+
+  /* line 298, ../../../sass/components/global/bugs.scss */
+  .dropdown-toggle {
+    margin-bottom: 2px;
+  }
+
+  /* line 301, ../../../sass/components/global/bugs.scss */
+  .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle {
+    margin-bottom: 0;
+  }
+}
