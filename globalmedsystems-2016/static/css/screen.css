@@ -8788,26 +8788,11 @@ button.close {
     display: none !important;
   }
 }
-/* line 1, ../sass/components/global/_main-wrapper.scss */
-.main-wrapper {
-  margin: 0 auto;
-  max-width: 1153px;
-}
-
 /* line 5, ../sass/components/global/_elements.scss */
 .custom-banner-img {
   border-style: solid;
   border-width: 0.5px;
   margin: 0 auto;
-}
-
-/* line 11, ../sass/components/global/_elements.scss */
-.contact-spotlight {
-  border: 1px solid #999999;
-  font-size: 0.9em;
-  line-height: 0.7em;
-  margin: 15px;
-  padding: 0 0 0 25px;
 }
 
 /* line 1, ../sass/components/global/_footer.scss */
@@ -9003,107 +8988,42 @@ button.close {
   }
 }
 
+/* line 1, ../sass/components/global/_main-wrapper.scss */
+.main-wrapper {
+  margin: 0 auto;
+  max-width: 1153px;
+}
+
+/* line 2, ../sass/components/global/_first-column.scss */
+.first-column .contact-spotlight {
+  border: 1px solid #999999;
+  font-size: 0.9em;
+  line-height: 0.7em;
+  margin: 15px 200px 0 0;
+  padding: 7px 0 0 25px;
+}
+/* line 9, ../sass/components/global/_first-column.scss */
+.first-column .custom-spotlight {
+  font-family: CaviarDreamsitalicwebfont;
+}
+
 /* line 1, ../sass/components/content/_categories.scss */
 .categories {
-  /********************************************************/
-  /*                   Responsive.                        */
-  /********************************************************/
+  background: red;
 }
-/* line 2, ../sass/components/content/_categories.scss */
+/* line 4, ../sass/components/content/_categories.scss */
 .categories .custom-row {
-  margin: 0 0 20px 0;
+  margin: 0 0 5px 0;
 }
-/* line 5, ../sass/components/content/_categories.scss */
+/* line 7, ../sass/components/content/_categories.scss */
 .categories .custom-product-header {
   text-align: center;
 }
-@media (max-width: 767px) {
-  /* line 13, ../sass/components/content/_categories.scss */
-  .categories h1, .categories h2, .categories h3, .categories h4 {
-    text-align: center;
-  }
-}
-@media (min-width: 482px) {
-  /* line 16, ../sass/components/content/_categories.scss */
-  .categories .header h1 {
-    font-size: 55px;
-  }
-  /* line 17, ../sass/components/content/_categories.scss */
-  .categories .header h2 {
-    font-size: 30px;
-  }
-  /* line 18, ../sass/components/content/_categories.scss */
-  .categories .header p {
-    font-size: 15px;
-  }
-  /* line 19, ../sass/components/content/_categories.scss */
-  .categories #illustration {
-    margin-bottom: -215px;
-  }
-  /* line 20, ../sass/components/content/_categories.scss */
-  .categories .expand img {
-    margin-bottom: 200px;
-    margin-top: -180px;
-  }
-}
-@media (min-width: 768px) {
-  /* line 23, ../sass/components/content/_categories.scss */
-  .categories .header h1 {
-    font-size: 55px;
-  }
-  /* line 24, ../sass/components/content/_categories.scss */
-  .categories .header h2 {
-    font-size: 20px;
-  }
-  /* line 25, ../sass/components/content/_categories.scss */
-  .categories .header p {
-    font-size: 15px;
-  }
-  /* line 26, ../sass/components/content/_categories.scss */
-  .categories .header .lead {
-    font-size: 22px;
-  }
-  /* line 27, ../sass/components/content/_categories.scss */
-  .categories #illustration {
-    margin-bottom: -310px;
-  }
-  /* line 28, ../sass/components/content/_categories.scss */
-  .categories .expand img {
-    margin-bottom: 300px;
-    margin-top: -190px;
-  }
-}
-@media (min-width: 992px) {
-  /* line 31, ../sass/components/content/_categories.scss */
-  .categories .header h1 {
-    font-size: 55px;
-    margin-top: 50px;
-  }
-  /* line 32, ../sass/components/content/_categories.scss */
-  .categories .header h2 {
-    margin-bottom: 40px;
-  }
-  /* line 33, ../sass/components/content/_categories.scss */
-  .categories .header p {
-    font-size: 15px;
-  }
-  /* line 34, ../sass/components/content/_categories.scss */
-  .categories #illustration {
-    margin-bottom: -380px;
-  }
-  /* line 35, ../sass/components/content/_categories.scss */
-  .categories .expand img {
-    margin-bottom: 370px;
-    margin-top: -260px;
-  }
-  /* line 36, ../sass/components/content/_categories.scss */
-  .categories .space-before {
-    padding-top: 40px;
-  }
-  /* line 37, ../sass/components/content/_categories.scss */
-  .categories .space-after {
-    padding-bottom: 40px;
-  }
+/* line 10, ../sass/components/content/_categories.scss */
+.categories .custom-margin {
+  border: 1px solid #ddd;
+  padding: 2px 0px 0px 2px;
+  margin: 1px 1px 3px 1px;
 }
 
 @font-face {
